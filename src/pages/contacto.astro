@@ -1,0 +1,30 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Contacto | Lemniscata Fisioterapia',
+  description: 'Contacta con Lemniscata Fisioterapia para solicitar cita o información',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
+    <h1 class="text-4xl font-bold mb-8">Contacto</h1>
+    <div class="prose prose-lg max-w-none">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h2 class="text-2xl font-semibold mb-4">Información de contacto</h2>
+          <p>
+            <strong>Teléfono:</strong> +34 651 30 33 26<br>
+            <strong>Email:</strong> lemniscatafisioterapia@gmail.com<br>
+            <strong>Horario:</strong> De lunes a viernes de 9:30H a 20:45H
+          </p>
+        </div>
+        <div>
+          <h2 class="text-2xl font-semibold mb-4">Ubicación</h2>
+          <!-- Aquí puedes añadir un mapa o la dirección física -->
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout> 
